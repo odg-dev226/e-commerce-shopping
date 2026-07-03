@@ -1,0 +1,48 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 390px;
+    width: 390px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size:  3rem;
+    text-align: center;
+    color: orangered;
+    padding: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+p{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.616);
+    margin-bottom: 360px;
+}
+nav{
+    position: sticky;
+    bottom: 0;
+    padding: 1rem;
+    display: flex;
+    width: 390px;
+    justify-content: space-between;
+    background-color: #dee2e6ff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#contact{
+    background-color: orangered;
+}
+.nav-bar a{
+    border-radius: 45%;
+    padding: 8px;
+    padding-bottom: 3px;
+}
